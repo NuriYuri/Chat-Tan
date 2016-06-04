@@ -1,0 +1,12 @@
+Lance une Pokéball sur quelqu'un (si spécifié).
+Permet d'acheter des Pokéballs avec votre temps.
+Vous n'avez plus de Pokéball.
+%s dit « Pokéball, Go ! »
+%s évite la Pokéball.
+Félicitations, %s est capturé !
+Tous les lanceurs obtiennent une Pokéball supplémentaire.
+Il reste **%d** Pokéball à %s.
+%s n'a plus de Pokéball.
+Vous avez encore des Pokéball, il n'est pas nécessaire d'en acheter.
+Vous devez encore patienter %d minutes avant de pouvoir acheter des Pokéballs.
+%s achète 10 Pokéball.

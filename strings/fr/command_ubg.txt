@@ -1,0 +1,26 @@
+Vous révèle votre identité.
+Vous êtes %s, votre id est %d, votre mention est %s et votre avatar est 
+Vous jouez à **%s**.
+Lance un dé du nombre de face désigné.
+une pièce
+une pièce très grosse
+%s lance un dé de %d faces et obtient %d.
+%s lance %s et obtient %d.
+Afficher l'heure.
+Il est %s
+Mange le joueur indiqué.
+*%s mange %s*
+*%s se mange*
+**start**/**see** Lance un chrono.
+start
+Chrono démarré !
+Le chrono est à : %s
+Indique que vous êtes AFK.
+%s n'est plus AFK.
+%s passe en mode AFK.
+Liste des AFK :
+**Personne.**
+, 
+À ta santé.
+http://static.sched.org/a2/738419/avatar.jpg
+À ta santé %s !

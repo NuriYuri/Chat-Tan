@@ -1,0 +1,17 @@
+Incite Chat-Tan à se connecter sur un channel vocal
+Je ne peux pas changer de channel vocal lorsque je joue une musique.
+Vous devez être **Song Operator** pour pouvoir utiliser cette commande.
+Song Operator
+Erreur : %s non trouvé dans le serveur %s
+Erreur : Demande mal formulée, tapez **/startvoice "Voice Channel Name"**
+Erreur : %s : %s
+**pathname** **"musicname"** Démarrer la lecture d'une musique dans le répertoire spécifié.
+Je suis actuellement muette.
+Paths :
+Cette musique n'a pas été trouvée.
+*joue %s*
+Connectée à %s
+Arrête de jouer la musique.
+Je ne joue rien.
+%s arrêtée.
+Joue la musique suivante.
