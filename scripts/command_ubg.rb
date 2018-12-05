@@ -1,5 +1,3 @@
-#encoding: utf-8
-
 module Command
   module UBG #Useless But Great
     #> Chargement des strings relatifs à ce module

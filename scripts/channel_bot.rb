@@ -1,5 +1,3 @@
-#encoding: utf-8
-
 module Channel
   class BotChannels
     include Bot
@@ -30,6 +28,11 @@ module Channel
         "/afk" => :afk,
         "/beer" => :beer,
       )
+      set_command(
+        ::Command::Admin,
+        "/prune" => :prune
+      )
+=begin
       #> Récupération des commandes de musique
       set_command(
         ::Command::Song,
@@ -38,13 +41,17 @@ module Channel
         "/stopmusic" => :stop,
         "/nextmusic" => :next,
       )
+=end
       server_id = server = channel = nil
       #> Démarrage de l'écoute sur certains channels
+=begin
       Socket.servers.each do |server_id, server|
         if channel = find_channel(server, "bot") or channel = find_channel(server, "general")
           init_message(start_with: "/", in: channel)
         end
       end
+=end
+      init_message(start_with: '/')
     end
     #> Intégration de l'interface
     Bot.make_interface(self)

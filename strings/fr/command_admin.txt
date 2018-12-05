@@ -1,0 +1,3 @@
+Supprimer les `n` derniers messages.
+Vous n'avez pas le droit de supprimer des messages dans %<channel>s sur %<server>s.
+%<nb>s messages supprimés.

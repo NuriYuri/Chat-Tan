@@ -1,5 +1,3 @@
-#encoding: utf-8
-
 module Command
   module Pokeball
     #> Chargement des strings relatifs à ce module

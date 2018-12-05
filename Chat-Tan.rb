@@ -23,5 +23,6 @@ rescue Exception
   print("Erreur : \n#{$!.class} : #{$!.message}\nTrace :\n#{$!.backtrace.join("\n")}")
   system("pause")
 end
-print("Bot démarré !")
+puts("Bot démarré !")
+puts("Invitation : #{Bot::Socket.invite_url}")
 Bot::Socket.sync

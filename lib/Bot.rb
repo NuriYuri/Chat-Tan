@@ -1,8 +1,6 @@
-#encoding: utf-8
-
 module Bot
   #> Socket contenant le bot dicord
-  Socket = Discordrb::Bot.new(token: ::BotToken, application_id: ::BotAppID)
+  Socket = Discordrb::Bot.new(token: File.read('token.txt').chomp)
   Socket.run(:async)
   Socket.should_parse_self = ::BotParse
   #> Interfaces du bot
